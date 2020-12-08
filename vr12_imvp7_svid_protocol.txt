@@ -1,0 +1,17 @@
+falling edge sample
+"start[2:0]" :  3b
+ "ADD[3:0]" :  4b
+ "CMD[4:0]" :  5b
+"CMDDATA[7:0]" : 8b 
+"P" :  1b
+"END[2:0]" : 3b
+ "TA[1:0]" : 2b
+
+rasing edge sample
+"ACK[1:0]" : 2b
+"VRDATA[7:0]" : 8b 
+"P" :  1b
+"TA[1:0]" 2b
+																
+when cpu drive, VR sample at falling edge of clock
+when VR drive, cpu sample at rasing edge of clock
